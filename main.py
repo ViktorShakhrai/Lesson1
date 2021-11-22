@@ -57,3 +57,7 @@ print(rez)
 assert rez == '000012 Ираклий 110110 15.32'
 
 
+base_str = 'Корова'
+rez = base_str[4].upper()+base_str[1:4]+"н"+base_str[-1]
+print(rez)
+assert rez == 'Ворона'
