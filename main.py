@@ -3,10 +3,9 @@ rez = (total * 0.8).__round__()
 print("Для успешного окончания курса надо сдать {} домашек".format(rez))
 assert rez == 35
 
-x1 = 1
-y1 = 4
-x2 = 4
-y2 = 6
+x1,y1 = 1,4
+x2,y2 = 4,6
+
 import  math
 distance = math.sqrt((x2-x1)**2+(y2-y1)**2)
 print("Відстань між двома точками дорівнює:",distance.__round__(2))
@@ -24,7 +23,9 @@ assert var1 == 'python'
 
 name = "Viktor"
 print("Привет "+name)
-print(f"Привіт{name},як справи?")
+print(f"Привіт {name},як справи?")
+print("Це форматування за допомоги {0} формат".format("методу"))
+print("Це моє ненависне %s" %"форматування")
 
 
 price = 12
